@@ -1,0 +1,15 @@
+{
+	"name": "io.github.mikankari.taskmanagement",
+	"version": "2.0.0",
+	"title": "Task management for me",
+	"description": "",
+	"homepage": "https://github.com/mikankari/taskmanagement2/",
+	"author": "mikankari",
+	"dependencies": {
+		"child-process-promise": "^2.2.1",
+		"fs-extra": "^6.0.1",
+		"moment": "^2.22.2",
+		"request": "^2.87.0",
+		"request-promise": "^4.2.2"
+	}
+}

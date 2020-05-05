@@ -1,0 +1,32 @@
+#taskmanagement.bottom-panel.vert-resizable.top-resizer
+    .toolbar.simple-toolbar-layout
+        div
+            .btn-group
+                button.btn.small.taskmanagement-btn-add-created Create PR
+                button.btn.small.taskmanagement-btn-add-review Add review
+            .btn-group
+                button.btn.small.taskmanagement-btn-reload Reload
+                button.btn.small.taskmanagement-btn-show-all Show all
+        div(style="position: absolute; right: 30px;")
+            .btn-group
+                button.btn.small.taskmanagement-btn-copy Copy
+                button.btn.small.taskmanagement-btn-write-diary Write diary
+        .close &times;
+    .scrollable.resizable-content.table-container
+        table.bottom-panel-table.table.table-striped.table-condensed.row-highlight
+            tr
+                td
+                    .btn-group
+                        button.btn.btn-mini.taskmanagement-task-checkout Checkout
+                        button.btn.btn-mini.taskmanagement-task-open-pr Open PR
+                td
+                    span.taskmanagement-task-title
+                    | &nbsp;
+                    span.label.label-info.taskmanagement-task-head HEAD
+                    | &nbsp;
+                    span.label.label-warning 高め
+                td
+                    span.taskmanagement-task-current
+                td
+                    span.taskmanagement-task-due-date
+        textarea.taskmanagement-task-copy-text(style="margin: 0; border: 0; padding: 0; width: 1px; height: 1px;")

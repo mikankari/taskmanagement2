@@ -1,0 +1,6 @@
+**.html
+**.js
+config*.json
+node_modules/
+tasks*.json
+template/

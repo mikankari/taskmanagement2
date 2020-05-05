@@ -1,0 +1,16 @@
+.modal
+    .modal-dialog
+        .modal-header
+            h1.dialog-title Create PR
+        .modal-body
+            label Current working directory (Auto input)
+            input(type="text" name="pwd" readonly).input-block-level
+            label refs
+            input(type="number" name="refs_number" autofocus).input-block-level
+            label HEAD branch
+            input(type="text" name="head").input-block-level
+            label Base branch
+            input(type="text" name="base" value="master").input-block-level
+        .modal-footer
+            button.btn.dialog-button.left.cancel Cancel
+            button(data-button-id="ok").btn.dialog-button.primary.save Create

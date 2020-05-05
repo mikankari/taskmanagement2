@@ -1,0 +1,12 @@
+.modal
+    .modal-dialog
+        .modal-header
+            h1.dialog-title Add review
+        .modal-body
+            label Current working directory (Auto input)
+            input(type="text" name="pwd" readonly).input-block-level
+            label URL
+            input(type="url" name="url" autofocus).input-block-level
+        .modal-footer
+            button.btn.dialog-button.left.cancel Cancel
+            button(data-button-id="ok").btn.dialog-button.primary.save Add
